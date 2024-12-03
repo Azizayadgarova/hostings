@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Son Qo'shish va Ayirish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+<!-- Main Section -->
+<section class="py-16 flex justify-center items-center">
+    <div class="max-w-[1024px] w-full px-6 bg-white p-8 rounded-lg shadow-lg">
+        <div class="flex flex-col items-center">
+            <input type="number" id="numberInput" placeholder="Son kiriting" class="border-2 border-gray-300 rounded-lg p-2 mb-4 text-center w-24" />
+            <div class="flex gap-4 mb-4">
+                <!-- Add and Subtract Buttons -->
+                <button id="addBtn" class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600">+</button>
+                <button id="subtractBtn" class="bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600">-</button>
+            </div>
+            <div id="result" class="text-2xl font-bold text-gray-800">0</div>
+        </div>
+    </div>
+</section>
+<script src="./main.js"></script>
+
+</body>
+</html>
